@@ -128,13 +128,14 @@ body{
 
 .portafolio__cards{
     display: flex;
+    width: 100%;
     padding: 40px 0;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .portafolio__card{
-    width: 27%;
+    width: 30%;
     background: #fff;
     height: auto;
     box-shadow: var(--box-shadow);
@@ -405,7 +406,7 @@ body{
     
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 500px){
     
     .hero__img{
         width: 85%;
@@ -429,8 +430,9 @@ body{
     }
 
     .portafolio__card{
-        width: 90%;
+        width: 100%;
         max-width: 300px;
+        margin: 10px 0;
     }
 
     .gallery__picture{
