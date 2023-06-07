@@ -96,7 +96,8 @@ body{
 
 .about__texts{
     width: 50%;
-    --alin-title: left;
+    --aling-title: center;
+   
 }
 
 .about__paragraph{
@@ -132,6 +133,7 @@ body{
     padding: 40px 0;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .portafolio__card{
@@ -367,9 +369,15 @@ body{
         width: 100%;
     }
 /* section potafolio */
+
+.portafolio__cards{
+    width: 90%;
+    /* margin: 40px 0; */
+}
+
     .portafolio__card{
-        width: 45%;
-        margin-bottom: 30px;
+        width: 50%;
+        /* margin: 40px 0; */
     }
 
     /* gallery section  */
@@ -406,7 +414,7 @@ body{
     
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     
     .hero__img{
         width: 85%;
@@ -418,21 +426,32 @@ body{
     }
 
     .hero__title{
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
 
     .title{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
+
+    }
+
+    .about{
+        width: 100%;
+
     }
 
     .about__texts{
         width: 100%;
     }
 
+    .portafolio__container{
+        width: 120%;
+        
+    }
+
     .portafolio__card{
         width: 100%;
         max-width: 300px;
-        margin: 10px 0;
+        margin: 10px;
     }
 
     .gallery__picture{
@@ -446,7 +465,7 @@ body{
     }
 
     .languages__picture{
-        width: 35%;
+        width: 45%;
         margin-bottom: 30px;
 
     }
