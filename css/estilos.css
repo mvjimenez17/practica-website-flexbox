@@ -444,14 +444,14 @@ body{
     }
 
     .portafolio__container{
-        width: 120%;
+        width: 100%;
         
     }
 
     .portafolio__card{
         width: 100%;
         max-width: 300px;
-        margin: 10px;
+        gap: 30px;
     }
 
     .gallery__picture{
