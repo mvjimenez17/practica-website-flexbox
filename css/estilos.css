@@ -371,12 +371,12 @@ body{
 /* section potafolio */
 
 .portafolio__cards{
-    width: 90%;
+    /* width: 90%; */
     /* margin: 40px 0; */
 }
 
     .portafolio__card{
-        width: 50%;
+        width: 45%;
         /* margin: 40px 0; */
     }
 
@@ -445,6 +445,7 @@ body{
 
     .portafolio__container{
         width: 100%;
+        padding: 65px;
         
     }
 
