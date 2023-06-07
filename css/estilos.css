@@ -454,6 +454,10 @@ body{
         gap: 30px;
     }
 
+    .portafolio__paragraph{
+        margin: 10px;
+    }
+
     .gallery__picture{
         width: 90%;
         max-width: 300px;
